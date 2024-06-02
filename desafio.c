@@ -2,26 +2,24 @@
 
 int main() {
     float altura, largura, comprimento;
-    float consumo_diario;
-
+    float consumodiario;
+    
 
     printf("Digite a altura da cisterna em cm: ");
-    scanf("%d", &altura);
+    scanf("%f", &altura);
 
     printf("Digite a largura da cisterna em cm: ");
-    scanf("%d", &largura);
+    scanf("%f", &largura);
 
     printf("Digite o comprimento da cisterna em cm: ");
-    scanf("%d", &comprimento);
+    scanf("%f", &comprimento);
 
     printf("Qual consumo médio diário em litros? ");
-    scanf("%d", &consumo_diario);
+    scanf("%f", &consumodiario);
 
-    float capacidade_total = (altura * largura * comprimento) / 1000;
-    float autonomia = capacidade_total / consumo_diario;
-
-    printf("Capacidade total do reservatório: \n"capacidade_total);
-    printf("Autonomia do reservatório é: /n"autonomia);
+    float capacidadetotal = (altura * largura * comprimento) / 1000;
+    float autonomia = capacidadetotal / consumodiario;
+    
 
     if (autonomia > 2) {
      
@@ -36,6 +34,9 @@ int main() {
         printf("Consumo reduzido");
 
     }
+    
+    printf("Capacidade total do reservatório: %.2f litros\n", capacidadetotal);
+    printf("Autonomia do reservatório é: %.2f dias\n", autonomia);
 
 return 0;
 
