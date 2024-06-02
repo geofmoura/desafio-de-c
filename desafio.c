@@ -38,6 +38,8 @@ int main() {
     printf("Capacidade total do reservatório: %.2f litros\n", capacidadetotal);
     printf("Autonomia do reservatório é: %.2f dias\n", autonomia);
 
+    //este é um comentario de teste :D
+
 return 0;
 
 }
