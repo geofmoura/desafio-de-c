@@ -71,7 +71,6 @@ Saída do programa:
 
 Capacidade total do reservatório: 3000.00 litros
 Autonomia do reservatório: 12.00 dias
-Consumo reduzido
 
 
 ## Compilação e Execução
